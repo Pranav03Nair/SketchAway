@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap:10px;
+}
+
+#btn{
+    background-color: blue;
+    color:#E5E7EB;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    width: 700px;
+    height: 700px;
+}
+
+#container .rows {
+    flex-direction: column;
+    
+    display: flex;
+    
+    background-color: blue;
+    border: 1px solid black;
+
+    flex-grow: 1;
+}
+
+#container .cols {
+    flex: 1;
+    border-top: 1px solid black;
+    aspect-ratio: 1;
+}
+
+.colored{
+    background-color: red;
+}
